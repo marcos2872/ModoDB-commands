@@ -1,0 +1,1 @@
+db.produtos.find({ valoresNutricionais: { $lt: 50 } }, { nome: 1, _id: 0 });
